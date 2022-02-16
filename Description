@@ -1,0 +1,17 @@
+Query:
+Select Id, FirstName, LastName, Company, LeadSource, Status, skip_round_robin__c, Owner.name, zigpr__prTriggerUpdate__c, zigpr__isPrAssigned__c from Lead
+
+Fields:
+LeadSource- 
+    IT Referral
+    Phone Enquiry
+Status- 
+    Open
+    Contacted
+skip_round_robin__c- 
+    False
+    True
+Owner.name-
+    Chris Russel
+    Dave Sanders
+
